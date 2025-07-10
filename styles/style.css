@@ -1,0 +1,90 @@
+/*  '*' ar kaj holo full website k akta box ar modde ane sob size tik kora. ata always dita hobe , j konow website start korar aga */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+.text-gray{
+    color:#424242 ;
+}
+
+.bg-light{
+    background-color: rgba(255, 144, 14,0.1);
+}
+
+.text-light-gray{
+    color: #727272;
+}
+ /* header styles */
+
+ /* navbar related styles */
+.navbar{
+    display: flex;
+}
+ /* list style none debar karona .photha nay hoya jaba */
+ .navbar{
+    justify-content: space-around;
+    align-items: center;
+ }
+ .brand{
+    font-weight: 700px;
+    font-size: 45px;
+    margin-bottom: 50px;
+ }
+.nav-item{
+    list-style: none;
+     margin-right: 30px;   /* margin right top debar karona text ar vitora gap hoyacha */
+}
+
+.nav-link{
+    text-decoration: none;
+   font-weight: 500;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.parul{
+    text-align: center;
+    font-weight: 700;
+    font-size: 4rem;
+
+}
+.university{
+    text-align: center;
+}
+.computer{
+    color: white;
+    background-color: orange;
+    font-size: 25px;   
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+
+}
+.bangladesh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bangladesh img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
